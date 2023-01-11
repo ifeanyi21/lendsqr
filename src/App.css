@@ -6,7 +6,7 @@ a {
   font-family: Avenir Next;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .hideNav {
     display: none;
   }
@@ -23,6 +23,13 @@ a {
   .blacklistButton {
     height: auto !important;
   }
+  .sideBarSmall{
+    display: block !important;
+  }
+}
+
+.sideBarSmall{
+  display: none;
 }
 
 .active {
